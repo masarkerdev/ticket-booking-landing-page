@@ -36,8 +36,7 @@
     </header>
     <main class="">
         <!-- banner sections start -->
-        <section
-            class=" bg-[url('./images/banner.png')] bg-contain bg-no-repeat lg:h-[530px]   lg:w-[1140px] w-[90vw] mx-auto mt-4">
+        <section class="bg-[url('./images/banner.png')] lg:bg-contain bg-cover bg-center bg-no-repeat lg:h-[530px] h- lg:w-[1140px] w-[90vw] mx-auto mt-4 py-8">
             <div class="flex flex-col justify-center items-center h-full">
                 <h1 class="lg:text-6xl text-2xl text-white font-bold text-center">End-to-End Travel with <br><span
                         class="text-[#1DD100]">M.A TRANSPORT</span> </h1>
@@ -45,7 +44,7 @@
                     directly
                     within the app. The integrated testing features allow for a streamlined .
                 </p>
-                <a href="#ticket"><button class="bg-[#1DD100] text-black lg:px-6 lg:py-3 font-bold lg:mt-4">Buy
+                <a href="#ticket"><button class="bg-[#1DD100] text-black px-6 py-3 font-bold lg:mt-4">Buy
                         ticket</button></a>
             </div>
         </section>
@@ -155,7 +154,7 @@
                 </div>
 
                 <!-- ticket booking details start  -->
-                <div class="bg-white flex lg:flex-row flex-col items-center rounded-xl mt-16 pb-5">
+                <div class="bg-white flex lg:flex-row flex-col items-center rounded-xl mt-16 pb-5 lg:pb-0">
                     <!-- right side -->
                     <div class=" lg:px-8 px-3 py-5">
 
@@ -202,7 +201,7 @@
 
                     <!-- middle -->
                     <div>
-                        <img src="./images/info-devider.png" alt="" class="lg:h-auto h-36 ">
+                        <img src="./images/info-devider.png" alt="" class="lg:h-full h-36 ">
                     </div>
 
                     <!-- right side -->
@@ -406,7 +405,7 @@
                                 <input type="email" placeholder="yourmail@gmail.com" name="" id="email"
                                     class="px-4 py-3 border-[1px] border-gray-200 rounded-md" required>
 
-                                <button onclick="my_modal_1.showModal()" class="btn bg-[#1DD100] text-white p-2 rounded-md">Book
+                                <button id="bookSeatBtn" onclick="my_modal_1.showModal()" class="btn bg-[#1DD100] text-white p-2 rounded-md">Book
                                     Your Seat</button>
                             </form>
                         </div>
