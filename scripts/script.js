@@ -270,3 +270,17 @@ function nakib() {
 
 
 // popup fucti
+// function openModal() {
+//     var text = document.getElementById("text").value;
+//     var email = document.getElementById("email").value;
+//     var phone = document.getElementById("phone").value;
+
+//     // Check if all fields are filled
+//     if (text !== "" && email !== "" && phone !== "") {
+//         document.getElementById("myModal").style.display = "block";
+//     }
+// }
+
+// function closeModal() {
+//     document.getElementById("myModal").style.display = "none";
+// }
